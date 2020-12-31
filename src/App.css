@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  font-family:'Assistant';
 }
 
 .App-logo {
@@ -14,7 +15,6 @@
 }
 
 .App-header {
-  background-color: #282c34;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -35,4 +35,16 @@
   to {
     transform: rotate(360deg);
   }
+}
+.App-button{
+  display:inline-block;
+  padding:0.3em 1.2em; 
+  margin:0 0.1em 0.1em 0;
+  border:0.16em solid rgba(255,255,255,0);
+  border-radius:2em;
+ text-decoration: none;
+ font-weight: 300;
+}
+.p{
+  font-weight: bold;
 }

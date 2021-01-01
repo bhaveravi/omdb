@@ -35,7 +35,7 @@ class Movie extends React.Component {
         console.log(this.state.movieData);*/
         
        
-       const url = 'http://www.omdbapi.com/?i=tt3896198&apikey=2128c072&plot=full&t='+this.props.movieName;
+       const url = 'https://www.omdbapi.com/?i=tt3896198&apikey=2128c072&plot=full&t='+this.props.movieName;
        const response = await fetch(url);
        const data = await response.json();
        this.setState({movieData:data});
